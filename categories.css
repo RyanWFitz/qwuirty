@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-basis: 256;
+}
+
+nav {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #44b;
+    color: white;
+}
+
+a:hover {
+    box-shadow: 0 2px 5px -2px black;
+}
